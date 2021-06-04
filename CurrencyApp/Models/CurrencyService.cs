@@ -13,7 +13,7 @@ namespace CurrencyApp.Models
     public class CurrencyService : BackgroundService
     {
         private readonly IMemoryCache memoryCache;
-        //записываем данные о котировках в кэше
+
         public CurrencyService(IMemoryCache memoryCache)
         {
             this.memoryCache = memoryCache;
